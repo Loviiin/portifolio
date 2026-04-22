@@ -29,7 +29,7 @@ export default function WorkNowSection() {
           </p>
         </div>
 
-        <form action="https://formsubmit.co/contato@ghvillareal.com" method="POST" className="contact-form">
+        <form action="https://formsubmit.co/a043ff81375d7d721b7e2a7ef74cb9a2" method="POST" className="contact-form">
           <input type="hidden" name="_subject" value="Novo contato do Portfólio!" />
           <input type="hidden" name="_captcha" value="false" />
           
