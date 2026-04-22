@@ -20,22 +20,18 @@ export default function AboutMe() {
 
   const highlights = [
     {
-      icon: '📚',
       label: 'Educação',
       content: 'Último semestre de Bacharelado em Ciência da Computação @ CEUB'
     },
     {
-      icon: '⚙️',
       label: 'Especialização',
       content: 'Full Stack com foco em backend resiliente, infraestrutura e DevOps'
     },
     {
-      icon: '🐧',
       label: 'Ambiente',
       content: 'Trabalho em Linux. Configuro ambientes de desenvolvimento, servidores e utilizo ferramentas open source.'
     },
     {
-      icon: '🤖',
       label: 'Interesses',
       content: 'DevOps, DevSecOps, Machine Learning e arquitetura de sistemas distribuídos'
     }
@@ -55,7 +51,6 @@ export default function AboutMe() {
         <div className="about-highlights">
           {highlights.map((item) => (
             <article key={item.label} className="highlight-card">
-              <span className="highlight-icon">{item.icon}</span>
               <div>
                 <h3>{item.label}</h3>
                 <p>{item.content}</p>

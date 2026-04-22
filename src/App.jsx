@@ -19,7 +19,7 @@ export default function App() {
       <main className="portfolio">
         <section className="hero" id="top">
           <div className="hero-content">
-            <p className="hero-kicker">Guilherme Henrique Villareal</p>
+            <p className="hero-kicker">Guilherme Henrique De Souza Villa Real</p>
             <h1>
               <span>Olá, sou o Guilherme.</span>
               <span>Desenvolvedor Full Stack.</span>
